@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/studiofrenetic/facebook-plugins"
+    "url": "https://github.com/piotrkardys/facebook-plugins"
   },
   "dependencies": {
     "react-side-effect": "^1.0.2"
@@ -52,9 +52,9 @@
     "dev": "webpack-dev-server --config ./dev/webpack.config.js --colors --inline --port 3000"
   },
   "bugs": {
-    "url": "https://github.com/studiofrenetic/facebook-plugins/issues"
+    "url": "https://github.com/piotrkardys/facebook-plugins/issues"
   },
-  "homepage": "https://github.com/studiofrenetic/facebook-plugins#readme",
+  "homepage": "https://github.com/piotrkardys/facebook-plugins#readme",
   "directories": {
     "test": "test"
   }
