@@ -15,7 +15,9 @@ script.src = '/webpack-dev-server.js';
 document.getElementsByTagName('head')[0].appendChild(script);
 */
 
-document.body.innerHTML = `
+// [1]
+// document.body.innerHTML = `       
+document.body.createElement = `
   <div id="dev"></div>
   <script src="/.js"></script>
 `;

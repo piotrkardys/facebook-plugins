@@ -59,7 +59,7 @@ export default class FBFollow extends Component {
     const widthParam = width ? {'data-width': width} : {};
     const heightParam = height ? {'data-height': height} : {};
     return (
-      <span>
+      <div>
         <div id="fb-root"></div>
         <div className="fb-follow"
           data-href={href}
@@ -69,7 +69,7 @@ export default class FBFollow extends Component {
           data-show-faces={showFaces}
           {...widthParam}
           {...heightParam}></div>
-      </span>
+      </div>
     );
   }
 }

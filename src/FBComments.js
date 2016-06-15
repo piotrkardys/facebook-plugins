@@ -58,7 +58,7 @@ export default class FBComments extends Component {
     const mobileParam = mobile ? {'data-mobile': mobile} : {};
     const widthParam = width ? {'data-width': width} : {};
     return (
-      <span>
+      <div>
         <div id="fb-root"></div>
         <div className="fb-comments"
           data-href={href}
@@ -67,7 +67,7 @@ export default class FBComments extends Component {
           data-order-by={orderBy}
           {...mobileParam}
           {...widthParam}></div>
-      </span>
+      </div>
     );
   }
 }

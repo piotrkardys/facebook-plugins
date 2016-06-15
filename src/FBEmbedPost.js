@@ -49,10 +49,10 @@ export default class FBEmbedPost extends Component {
   render() {
     const {href, width} = this.props;
     return (
-      <span>
+      <div>
         <div id="fb-root"></div>
         <div className="fb-post" data-href={href} data-width={width}></div>
-      </span>
+      </div>
     );
   }
 }

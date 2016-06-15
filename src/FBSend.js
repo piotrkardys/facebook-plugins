@@ -55,10 +55,10 @@ export default class FBSend extends Component {
     const {colorScheme, href, kidDirectedSite, referal} = this.props;
     const referalParam = referal ? {'data-ref': referal} : {};
     return (
-      <span>
+      <div>
         <div id="fb-root"></div>
         <div className="fb-send" data-href={href} data-colorscheme={colorScheme} data-kid-directed-site={kidDirectedSite} {...referalParam}></div>
-      </span>
+      </div>
     );
   }
 }

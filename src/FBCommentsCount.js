@@ -47,11 +47,11 @@ export default class FBCommentsCount extends Component {
   render() {
     const {href} = this.props;
     return (
-      <span>
+      <div>
         <div id="fb-root"></div>
         <span className="fb-comments-count"
           data-href={href}></span>
-      </span>
+      </div>
     );
   }
 }

@@ -61,10 +61,10 @@ export default class FBLike extends Component {
     const {action, colorScheme, href, kidDirectedSite, layout, share, showFaces, width} = this.props;
     const widthParam = width ? {'data-width': width} : {};
     return (
-      <span>
+      <div>
         <div id="fb-root"></div>
         <div className="fb-like" data-href={href} data-colorscheme={colorScheme} data-kid-directed-site={kidDirectedSite} data-layout={layout} data-action={action} data-show-faces={showFaces} data-share={share} {...widthParam}></div>
-      </span>
+      </div>
     );
   }
 }

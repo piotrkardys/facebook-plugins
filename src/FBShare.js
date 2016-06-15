@@ -51,12 +51,12 @@ export default class FBShare extends Component {
     const {href, layout} = this.props;
 
     return (
-      <span>
+      <div>
         <div id="fb-root"></div>
         <div className="fb-share-button"
           data-href={href}
           data-layout={layout}></div>
-      </span>
+      </div>
     );
   }
 }

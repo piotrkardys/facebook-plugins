@@ -65,7 +65,7 @@ export default class FBPage extends Component {
     const {adaptContainerWidth, height, hideCover, hideCta, href, showFacepile, smallHeader, tabs, width} = this.props;
 
     return (
-      <span>
+      <div>
         <div id="fb-root"></div>
         <div className="fb-page"
           data-href={href}
@@ -78,7 +78,7 @@ export default class FBPage extends Component {
           data-hide-cta={hideCta}
           data-small-header={smallHeader}
           ></div>
-      </span>
+      </div>
     );
   }
 }
